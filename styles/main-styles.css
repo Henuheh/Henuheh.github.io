@@ -1,0 +1,23 @@
+body {
+  margin: 0px;
+}
+
+main {
+  padding: 5px;
+  margin: 90px auto;
+  max-width: 500px;
+}
+
+section {
+  overflow-wrap: break-word
+}
+
+#navigation {
+  display: flex;
+  gap: 10px;
+  padding: 0px;
+}
+
+#navigation li {
+ list-style-type: none;
+}
