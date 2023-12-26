@@ -1,5 +1,7 @@
 body {
   margin: 0px;
+  /*Stops the content from shifting when the scrollbar appears.*/
+  padding-left: calc(100vw - 100%);
 }
 
 main {
@@ -10,6 +12,16 @@ main {
 
 section {
   overflow-wrap: break-word
+}
+
+a {
+  font-family: helvetica;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #a495a2;
 }
 
 #navigation {

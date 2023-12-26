@@ -1,0 +1,33 @@
+
+
+
+h2 {
+	font-family: helvetica;
+}
+
+h5 {
+	font-family: helvetica;
+}
+
+figure {
+  padding: 0px;
+  margin: 0px;
+  max-width: 500px;
+}
+
+figure img {
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+
+}
+
+figcaption {
+	text-align: center;
+	padding: 10px 0px 0px;
+	color: #606060;
+	font-family: georgia;
+	font-style: italic;
+	font-size: 80%;
+}
+
