@@ -1,3 +1,13 @@
+#arrow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  transform-origin: top left;
+  padding: 5px;
+  width: 30px;
+}
+
 body {
   margin: 0px;
   /*Stops the content from shifting when the scrollbar appears.*/
@@ -33,3 +43,5 @@ a:hover {
 #navigation li {
  list-style-type: none;
 }
+
+
