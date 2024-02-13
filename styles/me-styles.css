@@ -1,28 +1,67 @@
 body {
   margin: 0px;
+ 
 }
 
 #profile {
-  max-width: 1000px;
+  width: 100% !important; 
   position: absolute;
   top: 200px;
   left: 50%;
   transform: translateX(-50%);
   overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#profilepiccontainer{
+  float: left;
+  width: 200px;
 }
 
 #profilepic{
-  align-self: center;
-  float: left;
   width: 200px;
   filter: drop-shadow( -6px 4px 3px #887b9145);
+}
+
+#descriptioncontainer {
+  max-width: 100%;
+
 }
 
 .description {
   padding-left: 20px;
   font-family: helvetica;
   line-height: 1.8;
-  min-width: 200px;
-  display: flex;
-
+  margin: 0px;
 }
+
+#links {
+  height: 40px;
+  list-style-type: none;
+  display: flex;
+  overflow: visible;
+  margin-bottom: 0px;
+  padding-left: 30px;
+}
+
+#links li{
+  width: 50px;
+  overflow: visible;
+}
+
+#links li img{
+  position: absolute;
+  width: 40px;
+  transition: scale 0.2s;
+}
+
+#links li img:hover {
+  scale: 110%;
+}
+
+
+
+
