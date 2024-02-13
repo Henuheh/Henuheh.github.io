@@ -24,10 +24,19 @@ var popupImage = popup.querySelector("img")
 var gallery = document.getElementById("gallery")
 const scrollContainer = document.getElementById("gallery");
 
+/*
 gallery.querySelectorAll("img").forEach((currentItem) => {
   currentItem.addEventListener("click", (event) => {
     popup.classList.remove("hidden");
     popupImage.src = currentItem.src;
+  })
+})
+*/
+
+gallery.querySelectorAll("img").forEach((currentItem) => {
+  currentItem.addEventListener("click", (event) => {
+    popup.classList.remove("hidden");
+    popupImage.src = currentItem.nextElementSibling.src;
   })
 })
 
@@ -35,7 +44,7 @@ gallery.querySelectorAll("li").forEach((currentItem) => {
   currentItem.addEventListener("keyup", (event) => {
     if (event.key === "Enter") {
       popup.classList.remove("hidden");
-      popupImage.src = currentItem.querySelector("img").src;
+      popupImage.src = currentItem.children.src;
     }
 })
 })
