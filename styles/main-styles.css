@@ -44,4 +44,15 @@ a:hover {
  list-style-type: none;
 }
 
+.snippet {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.blogdate {
+  font-family: helvetica;
+  font-size: 60%;
+  bottom: -9px;
+  position: relative;
+}
 

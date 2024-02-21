@@ -62,6 +62,13 @@ body {
   scale: 110%;
 }
 
+#email {
+  width: 100px !important;
+  font-family: helvetica;
+  font-size: 80%;
+  font-weight: bold ;
+}
+
 
 
 

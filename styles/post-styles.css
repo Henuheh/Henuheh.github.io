@@ -9,6 +9,10 @@ h5 {
 	font-family: helvetica;
 }
 
+p {
+	text-align: justify;
+  text-justify: inter-word;
+}
 figure {
   padding: 0px;
   margin: 0px;
@@ -29,5 +33,16 @@ figcaption {
 	font-family: georgia;
 	font-style: italic;
 	font-size: 80%;
+}
+
+.footnote {
+	color: #606060;
+	font-family: georgia;
+	font-style: italic;
+	font-size: 80%;
+}
+
+hr.solid {
+  border-top: 3px solid #bbb;
 }
 
