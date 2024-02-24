@@ -69,7 +69,10 @@ body {
   font-weight: bold ;
 }
 
-@media (width <= 900px){
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
   #profile {
   width: 100% !important; 
   min-height: 600px;
