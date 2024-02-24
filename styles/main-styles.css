@@ -62,8 +62,9 @@ a:hover {
   font-family: helvetica;
   text-decoration: none;
   color: black;
-  font-size: 300%;
+  font-size: 200%;
   }
+  
   #arrow {
   position: fixed;
   top: 0;
@@ -72,6 +73,10 @@ a:hover {
   transform-origin: top left;
   padding: 5px;
   width: 50px;
+  }
+
+  .blogname {
+   font-size: 150%;
   }
 
 }
