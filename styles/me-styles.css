@@ -70,8 +70,7 @@ body {
 }
 
 @media only screen 
-  and (max-device-width: 950px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
+  and (max-device-width: 950px)  { 
   #profile {
   width: 100% !important; 
   min-height: 700px;

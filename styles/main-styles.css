@@ -57,8 +57,7 @@ a:hover {
 }
 
 @media only screen 
-  and (max-device-width: 950px) 
-  and (-webkit-min-device-pixel-ratio: 3)  {
+  and (max-device-width: 950px)  {
   a {
   font-family: helvetica;
   text-decoration: none;
