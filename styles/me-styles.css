@@ -69,6 +69,37 @@ body {
   font-weight: bold ;
 }
 
+@media (width <= 900px){
+  #profile {
+  width: 100% !important; 
+  min-height: 600px;
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+ }
+  #links li{
+    width: 90px;
+    overflow: visible;
+  }
+  #links li img{
+  position: absolute;
+  width: 60px;
+  transition: scale 0.2s;
+  }
+  #email {
+  width: 120px !important;
+  font-family: helvetica;
+  font-size: 100%;
+  font-weight: bold ;
+  }
+}
 
+}
 
 

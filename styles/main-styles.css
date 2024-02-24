@@ -56,3 +56,21 @@ a:hover {
   position: relative;
 }
 
+@media (width <= 900px){
+  a {
+  font-family: helvetica;
+  text-decoration: none;
+  color: black;
+  font-size: 150%;
+  }
+  #arrow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  transform-origin: top left;
+  padding: 5px;
+  width: 50px;
+  }
+
+}
