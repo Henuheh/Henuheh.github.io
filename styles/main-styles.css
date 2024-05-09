@@ -54,16 +54,48 @@ a:hover {
   font-size: 60%;
   bottom: -9px;
   position: relative;
+  float: right;
 }
 
 @media only screen 
   and (max-device-width: 950px)  {
+  
+  main{
+    max-width: 670px;
+  }
+
   a {
   font-family: helvetica;
   text-decoration: none;
   color: black;
   font-size: 400%;
+  padding-right: 20px;
   }
+
+  h2 {
+    padding-top: 20px;
+    font-size: 450%;
+  }
+
+  .blogdate {
+    float: left;
+    padding-bottom: 40px;
+    clear: left;
+  }
+
+    .snippet{
+    font-size: 170%;
+    clear: left;
+  }
+
+  .blogname
+  {
+    float: left;
+    clear: left;
+  }
+}
+
+
 }
   
   #arrow {
@@ -77,8 +109,9 @@ a:hover {
   }
 
   .blogname {
-   font-size: 150%;
+   font-size: 100%;
   }
+
 
 }
 
