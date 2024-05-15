@@ -92,7 +92,7 @@ body {
   #links li img{
   position: absolute;
   width: 100px;
-  transition: scale 0.2s;
+  transition: none;
   }
   #email {
   width: 120px !important;
