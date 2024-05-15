@@ -39,10 +39,10 @@ body {
 }
 
 #links {
-  height: 40px;
+  height: 110px;
   list-style-type: none;
   display: flex;
-  overflow: visible;
+  overflow: clip;
   margin-bottom: 0px;
   padding-left: 30px;
 }
