@@ -72,10 +72,10 @@ body {
 @media only screen 
   and (max-device-width: 950px)  { 
   #profile {
-  width: 100% !important; 
+  width: 90% !important; 
   min-height: 700px;
   position: absolute;
-  top: 200px;
+  top: 270px;
   left: 50%;
   transform: translateX(-50%);
   overflow: hidden;
@@ -83,21 +83,43 @@ body {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  height: 1100px;
  }
   #links li{
-    width: 90px;
+    width: 150px;
     overflow: visible;
   }
   #links li img{
   position: absolute;
-  width: 60px;
+  width: 100px;
   transition: scale 0.2s;
   }
   #email {
   width: 120px !important;
   font-family: helvetica;
-  font-size: 100%;
+  font-size: 200%;
   font-weight: bold ;
+  }
+
+  #profilepiccontainer{
+  float: left;
+  width: 360px;
+  padding: 90px;
+}
+
+  #profilepic
+  {
+    width: 350px;
+  }
+
+  #descriptioncontainer
+  {
+    height: 130%;
+  }
+
+  .description
+  {
+    font-size: 170%;
   }
 }
 

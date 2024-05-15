@@ -99,3 +99,26 @@ This way we can take the hover out of the gallery container itself, which also a
   background: rgba(0,0,0,.2); 
 }
 
+@media only screen 
+  and (max-device-width: 950px)  {
+  
+  main{
+    max-width: 670px;
+  }
+
+  #gallery {
+  height: 100%;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  scroll-snap-type: x mandatory;
+}
+
+.slider {
+  height: 1000px;
+}
+}
+

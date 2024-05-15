@@ -93,6 +93,21 @@ a:hover {
     float: left;
     clear: left;
   }
+
+  .blogtext
+  {
+    font-size: 170%;
+  }
+
+  .blogdatepost
+  {
+    font-size: 170%;
+  }
+
+  #arrow
+  {
+    width: 0px;
+  }
 }
 
 
