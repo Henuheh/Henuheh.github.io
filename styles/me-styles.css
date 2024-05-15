@@ -121,6 +121,11 @@ body {
   {
     font-size: 170%;
   }
+
+  #links li img:hover {
+    scale: 100%;
+
+  }
 }
 
 }
