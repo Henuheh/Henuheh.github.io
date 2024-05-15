@@ -55,11 +55,11 @@ body {
 #links li img{
   position: absolute;
   width: 40px;
-  transition: scale 0.2s;
+ /* transition: scale 0.2s; */
 }
 
 #links li img:hover {
-  scale: 110%;
+ /* scale: 110%; n**/
 }
 
 #email {
