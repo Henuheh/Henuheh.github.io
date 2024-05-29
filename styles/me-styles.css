@@ -22,6 +22,8 @@ body {
 }
 
 #profilepic{
+  position: absolute;
+  top: 20px;
   width: 200px;
   filter: drop-shadow( -6px 4px 3px #887b9145);
 }
@@ -109,6 +111,7 @@ body {
 
   #profilepic
   {
+    position: static;
     width: 350px;
   }
 
