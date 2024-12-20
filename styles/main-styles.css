@@ -57,6 +57,11 @@ a:hover {
   float: right;
 }
 
+.chapter {
+  font-size: 100%;
+  font-weight: bold;
+}
+
 @media only screen 
   and (max-device-width: 950px)  {
   

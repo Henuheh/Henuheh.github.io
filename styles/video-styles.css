@@ -1,0 +1,43 @@
+#roviodescription {
+  font-family: helvetica;
+  line-height: 1.5;
+  margin: 0px;
+
+}
+
+h2 {
+	font-family: helvetica;
+}
+
+p {
+	text-align: justify;
+  text-justify: inter-word;
+  width: 560px;
+}
+.videosection{
+	padding-top: 35px;
+}
+
+h3 {
+	font-family: helvetica;
+}
+
+.projectpic {
+	width: 560px;
+}
+
+.projectlink {
+	text-decoration: underline;
+}
+
+.gamegif{
+	padding: 16px;
+}
+
+#gamegifs{
+	width: 600px;
+}
+
+.ggglevels{
+	width: 700px;
+}
