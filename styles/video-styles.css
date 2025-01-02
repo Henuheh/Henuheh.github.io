@@ -41,3 +41,15 @@ h3 {
 .ggglevels{
 	width: 700px;
 }
+
+.projectyear {
+  font-family: helvetica;
+  font-size: 90%;
+  bottom: 0px;
+  position: relative;
+  float: right;
+}
+
+.widesection {
+	width: 560px;
+}
