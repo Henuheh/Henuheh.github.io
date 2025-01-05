@@ -45,7 +45,7 @@ h3 {
 .projectyear {
   font-family: helvetica;
   font-size: 90%;
-  bottom: 0px;
+  bottom: -5px;
   position: relative;
   float: right;
 }
@@ -53,3 +53,50 @@ h3 {
 .widesection {
 	width: 560px;
 }
+
+.worksnippet
+{
+	font-family: helvetica;
+  line-height: 1.5;
+  margin: 0px;
+}
+
+@media only screen 
+  and (max-device-width: 950px)  {
+  
+  main{
+    max-width: 670px;
+  }
+
+  
+  .projectpic {
+		width: 670px;
+		}
+
+  #roviodescription
+  {
+    font-size: 210%;
+    clear: left;
+    width: 670px;
+  }
+
+  .videosection
+  {
+  	padding-left: 50px;
+  }
+
+  .projectlink{
+  	font-size: 100%;
+  }
+
+  .schoolprojecttitle{
+  	width: 670px;
+  }
+
+  #gamegifs{
+  	width: 670px;
+  	display: flex;
+  	justify-content: center;
+  }
+
+  }

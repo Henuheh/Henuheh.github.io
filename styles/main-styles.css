@@ -113,6 +113,23 @@ a:hover {
   {
     width: 0px;
   }
+
+  .worksnippet
+  {
+    font-size: 230%;
+    clear: left;
+    width: 670px;
+  }
+
+ 
+
+  .schoolprojecttitle
+  {
+    font-size: 280%;
+    clear: left;
+  }
+
+
 }
 
 
@@ -131,6 +148,7 @@ a:hover {
   .blogname {
    font-size: 100%;
   }
+
 
 
 }
